@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail Sender</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+    <div id="main">
+        <h1>Sistema de correo de Go</h1>
+        <div id="container">
+            <p id="title">Crear nuevo correo</p>
+            <input type="text" class="input" id="to" placeholder="correo@ejemplo.com ">
+            <input type="text" class="input" id="subject" placeholder="Asunto">
+            <textarea id="content" cols="30" rows="10"></textarea>
+            <button id="sendButton">Enviar</button>
+        </div>
+    </div>
+</body>
+</html>

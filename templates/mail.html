@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="x-apple-disable-message-reformatting"/>
+    <meta name="color-scheme" content="light dark"/>
+    <meta name="supported-color-schemes" content="light dark"/>
+    <title>Mail</title>
+
+    <style type="text/css" rel="stylesheet" media="all">
+        #main {
+            height: auto;
+            width: 100%;
+            background-color: rgb(88, 88, 182);
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            font-weight: bold;
+            font-family: sans-serif;
+            width: 100%;
+            text-align: center;
+        }
+
+        p {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 20px;
+            font-family: sans-serif;
+            text-align: justify;
+            font-size: 14px;
+            white-space: pre;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="main">
+        <h2>Hola, mi nombre es {{.Nombre}}</h3>
+    </div>
+    <p> {{.Content}} </p>
+</body>
+</html>
